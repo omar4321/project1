@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    padding: 0;
+}
+
+/*************Start header area*************/
+.header-area{
+  background-color: rgb(176, 255, 255);
+  overflow: hidden;
+  height: 170px;
+  padding: 20px 0;
+}
+
+.container{
+    max-width: 1160px;
+    margin: auto;
+    width: 90%;
+}
+.header-area .logo-area{
+    float: left;
+    overflow: hidden;
+    width: 20%;
+    cursor: pointer;
+}
+.header-area .heading-area{
+    float: left;
+    overflow: hidden;
+    width: 60%;
+    text-align: center;
+
+}
+.header-area .heading-area h1{
+    color:#009432;
+    font-size: 60px;
+    text-align: center;
+     margin: 0;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-area .heading-area h4{
+    color:#000000;
+    font-size: 30px;
+
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-right: 30px; 
+    font-size: 22px;   
+    line-height: 2px;
+    color: rgb(255, 255, 255);
+  }
+  .menu ul li a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+ 
+  }
+  .menu ul li a:hover{
+    color: #3815ff;
+    text-decoration: underline;
+  }
+.header-area .btm-area{
+    overflow: hidden;
+    width: 20%;
+}
+
+
+.header-area .btm-area input{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid rgb(5, 5, 255);
+    border-radius: 6px 0 0 6px;
+   margin-left: 40px;
+   margin-top: 40px;
+   transition: .8s;
+   cursor: pointer;
+}
+.header-area .btm-area input:hover{
+    background-color: #fff9f9;
+}
+/***************end-Header-area***************/
+
+
+/*************Start body area*************/
+.body-area{
+    overflow: hidden;
+
+}
+   /******Start left  side ********/
+      
+ .body-area .left-side{
+     background-color: #353b48;
+     overflow: hidden;
+     float: left;
+     width: 20%;
+     height: 620px;
+     text-align: center;
+ }
+ .body-area .left-side h3{
+     color:#f5f6fa;
+     font-size: 35px;
+     text-transform: capitalize;
+     font-weight: bold;
+     text-align: center;
+ }
+ .body-area .left-side .btn{
+     overflow: hidden;
+     margin-left: 60px;
+}
+ .body-area .left-side .btn ul{
+     margin: 0;
+     padding: 0;
+     text-align: center;
+      }
+    
+ .body-area .left-side .btn li{
+    list-style:none;
+    background-color: aliceblue;
+    margin-bottom: 30px;
+    width:130px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: .8s;   
+    text-transform: capitalize;
+    align-items: center;
+ }
+
+ .body-area .left-side .btn ul li a{
+    text-decoration: none;
+    color: rgb(5, 92, 255);
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+
+ .body-area .left-side .btn li:hover{
+     background-color: #b5c2df;
+     text-decoration: underline;
+    }
+
+             /******end left  side ********/
+                   
+
+
+              /******Start middle side ********/
+
+              .body-area .middle-side{
+                /* background-color: #0051ff; */
+                overflow: hidden;
+                float: left;
+                width: 60%;
+                height: 620px;
+                text-align: center;
+              }
+
+        .BACKIMG{
+                      overflow: hidden;
+                      border-radius: 40px 30px 20px 10px;
+                      align-items: center;
+                        margin-top: 10px;
+                        margin-bottom: 30px;
+                        box-shadow: 10px 0 0 0px;
+        }
+
+    .body-area .right-side{
+                background-color: #1e1f22;
+                overflow: hidden;
+                float: left;
+                width: 20%;
+                height: 620px;
+                text-align: center;
+                color: #fff;
+
+    }
+.body-area .right-side .btn{
+   overflow: hidden;
+   margin-top: 10px;
+    
+}      
+
+.body-area .right-side .profile{
+    overflow: hidden;
+}
+
+.body-area .right-side .profile img{
+    border-radius: 10px;
+}
+
+.body-area .right-side .profile h4{
+    margin: 0;
+    font-size: 15px;
+}
+
+.body-area .right-side .profile h6{
+    margin-top: 1px;
+}
+.body-area .right-side .btn a{
+    background-color: #4a850f;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 10px 0 10px 0;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.body-area .right-side h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: yellow;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.body-area .right-side .form {
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.body-area .right-side .form label{
+    color: #ccc;
+    font-size: 26px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.body-area .right-side .form input{
+     background-color: #fff;
+     padding: 8px 3px;
+     border: none;
+     margin-bottom: 20px;
+     border-radius: 4px;
+}
+.body-area .right-side .btn a:hover{
+    background-color: #539e08;
+}
+.submit {
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+.submit button{
+    background-color: hsl(51, 92%, 29%);
+    border: 1px solid #ccc;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 1s;
+}
+           
+                
+
+/*************end body area*************/
+ 
+.Fotter-area{
+    background-color:#81ecec;
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.Fotter-area .language{
+   overflow: hidden;  
+ 
+}
+
+.Fotter-area .language ul{
+    display: flex;
+    align-items: left;
+
+    
+}
+
+
+.Fotter-area .language ul li{
+    text-decoration: none;
+    color: rgb(5, 92, 255);
+    font-weight: bold;
+    list-style: none;
+    font-size: 18px;
+    list-style:none;
+    margin-bottom: 30px;
+    width:130px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: capitalize;   
+}
+
+
+.Fotter-area .language ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    word-spacing: 10px;
+    line-height: 22px;
+    
+}
